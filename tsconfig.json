@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "lib": ["dom", "es2018", "esnext.asynciterable"],
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "target": "es2018"
+  }
+}

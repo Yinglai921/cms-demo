@@ -1,0 +1,51 @@
+{
+  "name": "@yinglai/dynamic-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./build/bin/server.js",
+    "build": "npm-run-all build:*",
+    "build:clean": "rimraf build",
+    "build:tsc": "tsc --build tsconfig.build.json",
+    "test": "jest",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --fix --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yinglai921/dynamic-form"
+  },
+  "author": "Yinglai Xu <yinglai.xu@advinans.se>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/faker": "^4.1.5",
+    "@types/graphql": "^14.0.5",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^10.17.5",
+    "@types/pg": "^7.4.11",
+    "@types/verror": "^1.10.3",
+    "dotenv": "^8.2.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.2",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.30.1",
+    "@types/koa": "^2.0.49",
+    "apollo-server": "^2.14.2",
+    "dataloader": "^1.4.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.6",
+    "knex": "^0.20.1",
+    "koa": "^2.6.2",
+    "pg": "^7.12.1"
+  }
+}
