@@ -5,7 +5,8 @@ const Product = gql`
     id: String!
     name: String
     title: String
-    body: String
+    content: String
+    provider: String
   }
 
   type Query {

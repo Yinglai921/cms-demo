@@ -29,7 +29,7 @@ const app = new ApolloServer({ typeDefs, resolvers });
 
 const start = async () => {
   await knex.migrate.latest();
-  await knex.seed.run();
+  // await knex.seed.run();
 
   return app.listen(PORT, () => {
     console.log(`🚀  Server started and listening on ${PORT}`);
