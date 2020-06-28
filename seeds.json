@@ -1,0 +1,39 @@
+{
+  "product": [
+    {
+      "id": "EURO_ACCIDENT_SICKNESS",
+      "name": "Euro accident sickness insurance",
+      "title": "Euro accident sickness insurance",
+      "content": "<div><h4>Vad är en sjukförsäkring?</h4><p>Vid sjukdom får du sjuklön av din arbetsgivare de första 14 dagarna, första sjukdagen är dock en karensdag. Sjuklönen är 80 % av din lön. Försäkringskassan betalar ut sjukpenning från och med din 15:e sjukskrivningsdag. Sjukpenningen ger dig 80 % av din så kallade sjukpenninggrundande inkomst (SGI) upp till en månadslön på 31 000 kr.</p></div>",
+      "provider": "EURO_ACCIDENT"
+    },
+    {
+      "id": "LF_SICKNESS",
+      "name": "Länsförsäkringar sickness insurance",
+      "title": "Länsförsäkringar sickness insurance",
+      "content": "<div><h4>Vad är en sjukförsäkring?</h4><p>Vid sjukdom får du sjuklön av din arbetsgivare de första 14 dagarna, första sjukdagen är dock en karensdag. Sjuklönen är 80 % av din lön. Försäkringskassan betalar ut sjukpenning från och med din 15:e sjukskrivningsdag. Sjukpenningen ger dig 80 % av din så kallade sjukpenninggrundande inkomst (SGI) upp till en månadslön på 31 000 kr.</p></div>",
+      "provider": "LF"
+    },
+    {
+      "id": "FUTUR_PENSION",
+      "name": "FUTUR occupensional pension",
+      "title": "FUTUR occupensional pension",
+      "content": "<div><h4>Vad är en tjänstepension?</h4><p>Tjänstepension är den del av din pension som din arbetsgivare betalar in. Pensionen som kommer från staten - inkomstpension och premiepension - är inte tillräcklig varför tjänstepensionen är ett viktigt tillskott och har stor betydelse för din ekonomi när du blir pensionär. För de flesta behövs förutom tjänstepensionen även ett privat pensionssparande - via löneväxling eller ett privat sparande - för att säkerställa en trygg framtid.</p></div>",
+      "provider": "FUTUR"
+    },
+    {
+      "id": "ACTIWAY_WELNESS",
+      "name": "Actiway wellness benefit",
+      "title": "Actiway wellness benefit",
+      "content": "<div><h4>Actiway wellness benefit</h4><p>Löksås ipsum verkligen olika häst hwila kunde, åker genom det del. Ta när blev hav hwila att vemod redan sjö åker kunde lax vid, olika dunge flera mot vi varit samma jäst där dimma på äng, faktor upprätthållande björnbär nya samma kan plats vidsträckt där mjuka se. Rännil händer ta lax kan som nya denna som olika, genom hav mjuka erfarenheter sitt stig sin som så hans, strand sax sig händer lax om häst faktor.</p></div>",
+      "provider": "ACTIWAY"
+    },
+    {
+      "id": "SL_TRANSPORTATION",
+      "name": "SL card benefit",
+      "title": "Annual SL card benefit",
+      "content": "<div><h4>SL card benefit</h4><p>Samtidigt upprätthållande för enligt häst hans samtidigt stig ta, ordningens dag sig sax plats upprätthållande vi år bäckasiner, rot göras där upprätthållande sorgliga helt vidsträckt. År upprätthållande erfarenheter omfångsrik det nu trevnadens och samtidigt, vi häst trevnadens brunsås göras där olika, av tre stig åker se olika söka. Bra dock ännu kan och jäst hans, när dock som vi tre rännil inom, rot ta brunsås annat blev.</p></div>",
+      "provider": "SL"
+    }
+  ]
+}
