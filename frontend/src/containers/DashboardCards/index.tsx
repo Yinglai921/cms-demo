@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, GridCell, Card, CardPrimaryAction, Typography } from 'rmwc';
 import { PRODUCTS_QUERY } from '../../common/queries';
 import { useQuery } from '@apollo/react-hooks';
+import { Link } from 'react-router-dom';
 
 export const DashboardCards: React.FC = () => {
   const { loading, data, error } = useQuery(PRODUCTS_QUERY);
@@ -18,22 +19,24 @@ export const DashboardCards: React.FC = () => {
       <Grid>
         {products.map((product) => (
           <GridCell span={4} key={product.id}>
-            <Card title={product.title}>
-              <CardPrimaryAction>
-                <div style={{ padding: '1rem' }}>
-                  <Typography use="headline6" tag="div">
-                    {product.name}
-                  </Typography>
-                  <Typography
-                    use="body1"
-                    tag="p"
-                    theme="textSecondaryOnBackground"
-                  >
-                    {product.provider}
-                  </Typography>
-                </div>
-              </CardPrimaryAction>
-            </Card>
+            <Link to={`/products/${product.id}`}>
+              <Card title={product.title}>
+                <CardPrimaryAction>
+                  <div style={{ padding: '1rem' }}>
+                    <Typography use="headline6" tag="div">
+                      {product.name}
+                    </Typography>
+                    <Typography
+                      use="body1"
+                      tag="p"
+                      theme="textSecondaryOnBackground"
+                    >
+                      {product.provider}
+                    </Typography>
+                  </div>
+                </CardPrimaryAction>
+              </Card>
+            </Link>
           </GridCell>
         ))}
       </Grid>
