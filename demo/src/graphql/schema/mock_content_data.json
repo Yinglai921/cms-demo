@@ -1,0 +1,110 @@
+{
+  "title": "Actiway wellness benefit",
+  "slug": "actiway-wellness-benefit",
+  "assets": [
+    {
+      "fields": {
+        "title": "Actiway logo",
+        "description": "Actiway logo",
+        "file": {
+          "contentType": "image/jpeg",
+          "fileName": "actiwaylogo.jpeg",
+          "url": "https://storage.googleapis.com/a6s-prod--benefit/offer/5782dee0-7dd0-48e9-9109-934a4e79dc19/hero"
+        }
+      },
+      "sys": {
+        "createdAt": "2020-06-30T13:05:36.804Z",
+        "id": "456"
+      }
+    },
+    {
+      "fields": {
+        "title": "Actiway hero image",
+        "description": "Actiway hero image",
+        "file": {
+          "contentType": "image/svg",
+          "fileName": "actiwaylogo.svg",
+          "url": "https://storage.googleapis.com/a6s-prod--benefit-static-offers/images/logotype/actiwaylogo.svg"
+        }
+      },
+      "sys": {
+        "createdAt": "2020-06-30T13:05:36.804Z",
+        "id": "123"
+      }
+    }
+  ],
+  "entry": [
+    {
+      "fields": {
+        "headline": "Använd din friskvård"
+      },
+      "sys": {
+        "id": "pageHeader",
+        "createdAt": "2020-06-30T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "paragraph": "Friskvård via Actiway"
+      },
+      "sys": {
+        "id": "pageParagraph",
+        "createdAt": "2020-06-30T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "headline": "Om erbjudandet",
+        "paragraph": "Genom Actiway kan du enkelt använda ditt friskvårdsbidrag. Med ActiWays sökmotor hittar du över 8500 friskvårdsleverantörer och hundratals rabatter på 430 orter. Allt du behöver för att utnyttja bidraget är din legitimation. Använd länken för att komma till Actiway direkt. Du väljer själv vad du vill nyttja ditt friskvårdsbidrag till. Du kan till exempel yoga, gymma eller varför inte prova på frisbeegolf?"
+      },
+      "sys": {
+        "id": "paragraphWithHeadline",
+        "createdAt": "2020-06-30T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "headline": "Om Actiway",
+        "paragraph": "ActiWay är marknadens smidigaste system för betalning, administration och uppföljning av aktiviteter inom friskvårdsbidraget. Med vår modell aktiveras fler medarbetare till en friskare vardag, så att de på bästa sätt kan bidra till en framgångsrik organisation."
+      },
+      "sys": {
+        "id": "paragraphWithHeadline",
+        "createdAt": "2020-06-30T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "image": {
+          "id": "123"
+        }
+      },
+      "sys": {
+        "id": "supplierLogo",
+        "createdAt": "2020-06-29T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "image": {
+          "id": "456"
+        }
+      },
+      "sys": {
+        "id": "heroImage",
+        "createdAt": "2020-06-29T13:06:08.279Z"
+      }
+    },
+    {
+      "fields": {
+        "button": {
+          "text": "Till erbjudandet",
+          "name": "to offer",
+          "link": "https://www.actiway.se/"
+        }
+      },
+      "sys": {
+        "id": "callToAction"
+      }
+    }
+  ]
+}
